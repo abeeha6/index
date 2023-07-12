@@ -1,0 +1,325 @@
+div{
+    float: left;
+}
+@media screen{
+    .cpic{
+        width: 100%;
+    }
+    
+}
+h1{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+/* .navbar{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+position: sticky;
+top: 0;
+
+} */
+li{
+    float: left;
+    list-style-type:none;
+    padding: 20px 30px;
+padding-top: 40px;
+}
+.logo{
+    height: 100px;
+    width: 30%;
+    float: left;
+    
+}
+.headpic{
+    margin: 15px 0px 0px 200px;
+    height: 70px;
+    width: 30%;
+    
+}
+/* .links{
+    height: 100px;
+    width: 70%;
+float: left;
+} */
+li:hover{
+    background-color:blue;
+    color:white;
+}
+.pic{
+    height: 400px;
+    width: 100%;
+ background-image: url(9.jpeg);
+background-size: cover;
+ background-repeat: no-repeat;
+
+ float: left; 
+}
+h3{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 200px;
+    text-decoration-line: underline;
+}
+h3:hover{
+    font-size: 65px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 5px rgb(248, 41, 4);
+
+}
+.pica{
+    height: 400px;
+    width: 100%;
+    float: left;
+}
+.bar{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(230, 213, 213);
+    color: rgb(4, 4, 82);
+    margin: 30px
+}
+.ba{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(4, 4, 63);
+}
+.ba:hover{
+    background-color: rgb(11, 11, 80);
+    color: white;
+}
+.center{
+    height: 500px;
+    width: 100%;
+    /* background-color: rgb(4, 4, 71); */
+    color: black;
+}
+.di{
+    height: 500px;
+    width: 50%;
+    float: left;
+    margin: 20px;
+}
+.cpic{
+    height: 400px;
+    width: 100%;
+    border: 5px black solid;
+    margin: 40px;
+}
+.text{
+    text-align: center;
+    height: 500px;
+    width: 40%;
+    color: black;
+    margin: 40px;
+    float: left;
+}
+h2{
+
+    height: 100px;
+margin: 20px;
+font-size: 50px;
+}
+h2:hover{
+    font-size: 40px;
+    background-color: rgb(75, 29, 29);
+    color: white;
+}
+.tb{
+    height: 50px;
+    width: 100%;
+    /* background-color: rgb(4, 4, 71); */
+color: black;
+padding-top: 20px;
+text-align: center;
+font-size: 25px;
+}
+.maind{
+    height: 700px;
+    width: 100%;
+    /* background-color: pink;  */
+    padding: 20px;
+}
+.three{
+    height: 600px;
+    width: 30%;
+    background-color: rgb(23, 187, 97);
+    margin: 60px 10px 10px 30px;
+    
+}
+.three:hover{
+ background-color: rgb(0, 255, 213);
+}
+.tp{
+    height: 200px;
+    width: 200px;
+    margin: 150px 50px 10px 90px;
+    border-radius: 200px;
+}
+.tp:hover{
+    height: 230px;
+    width: 230px;
+    border: 5px solid black;
+}
+h4{
+    height: 50px;
+    width: 80%;
+    margin: 20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 39px;
+}
+.heading{
+    height: 400px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    color: rgb(10, 10, 90);
+    text-align: center;
+    font-size: 60px;
+}
+.abc:hover{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+
+}
+.para{
+    height: 50px;
+    width: 80%;
+    margin: 20px;
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+}
+.imgt{
+    height: 300px;
+    width: 100%;
+    background-image: url(9.jpeg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    color: black;
+    margin-top: 50px;
+}
+.mission{
+    height: 200px;
+    width: 50%;
+    text-align: center;
+    margin-top: 40px;
+}
+.abc{
+text-align: center;
+font-size: 25px;
+}
+/* .footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+}
+.foologo{
+    height: 300px;
+    width: 20%;
+    margin: 150px 0px 50px 50px;
+}
+.unorder{
+    height: 300px;
+    width: 20%;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    padding-top: 30px;
+    
+/* } */
+.last{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.new{
+    height: 500px;
+    width: 80%;
+    background-image: url(bc.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    position: relative;
+left: 10%;
+top: 40px;
+}
+.newa{
+    height: 400px;
+    width: 40%;
+    background-image: url(cd.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+top: 50px;
+left: 30%;
+
+}
+.maindiv{
+    height: 1100px;
+    width: 100%;
+    background-color: black;
+    margin: 20px;
+}
+.colm{
+    height: 500px;
+    width: 30%;
+    background-color: black;
+    margin: 20px;
+}
+.in{
+    height: 500px;
+    width: 40%;
+    background-color: black;
+}
+.icon{
+    height: 140px;
+    width: 140px;
+    /* border: 6pc black solid; */
+    border-radius: 140px;
+}
+.soft{
+    height: 200px;
+    width: 60%;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+.th{
+    height: 300px;
+    width: 60%;
+    background-color: black;
+    color: white;
+    font-size: 20px
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 250px;
+}
+.gallery:hover{
+ border: 1px solid red;   
+}
+div .gallery .img {
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}

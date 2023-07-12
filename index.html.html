@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js">
+
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container" style="height: 100px;">
+          <a class="navbar-brand" href="javascript:void(0)">
+            <img src="tlogo.jpeg"style="height: 100px;" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link nav-link-active" href="Home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About us.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="two.html">Technologies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="asignment.html">Portfolio</a>
+              </li>
+
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+   
+
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade mb-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="t18.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Home</h1>
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="t17.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="t3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+      <p>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls=
+        "multiCollapseExample1">Toggle first element</a>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" 
+        aria-controls="multiCollapseExample2">Toggle second element</button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" 
+        aria-controls="multiCollapseExample2">Toggle second element</button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" 
+        aria-controls="multiCollapseExample2">Toggle second element</button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" 
+        aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+      </p>
+      <div class="row">
+        <div class="col-4">
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body">
+              Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+          </div>
+        </div>
+        <div class="col-4 my5">
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body">
+              Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role=
+              "img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder
+
+              </title><rect width="100%" height="100%" fill="#55595c">
+                <img src="1.jpeg" alt="">
+              </rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="t1.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm mt-5">
+              <!-- <svg class="" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" 
+              preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill=
+              "#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="t7.jpeg" alt="">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="t9.jpeg" alt="">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="t6.jpeg" alt="">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" 
+              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" 
+              dy=".3em">Thumbnail</text></svg> -->
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm mt-5">
+              <img src="t8.jpeg" alt="">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=
+              "Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height=
+              "100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="t5.jpg" alt="">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=
+              "Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height=
+              "100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+           <div class="card shadow-sm">
+            <img src="t3.jpg" alt="">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" 
+              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm mt-5">
+              <img src="t19.jpeg" alt="">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label
+              ="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%"
+               height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm ">
+              <img src="t2.jpg" alt="">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" 
+              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="my-5 text-center"><a href="https://blog.hootsuite.com/wp-content/uploads/2023/04/New-social-media-02.png" target="_blank">
+        <picture decoding="async" loading="lazy" class="alignnone size-medium wp-image-401113">
+        <source type="image/webp" srcset="https://blog.hootsuite.com/wp-content/uploads/2023/04/New-social-media-02-310x400.png.webp 310w,
+         https://blog.hootsuite.com/wp-content/uploads/2023/04/New-social-media-02-620x799.png.webp 620w,
+          https://blog.hootsuite.com/wp-content/uploads/2023/04/New-social-media-02-768x990.png.webp 768w, 
+          https://blog.hootsuite.com/wp-content/uploads/2023/04/New-social-media-02.png.webp 934w" sizes="(max-width: 310px) 100vw, 310px">
+        <img decoding="async" loading="lazy" src="https://blog.hootsuite.com/wp-content/uploads/2023/04/New-social-media-02-310x400.png"
+         alt="Clubhouse question should you quit your job and become an amateur dolphin trainer?" width="310" height="400" 
+         srcset="https://blog.hootsuite.com/wp-content/uploads/2023/04/New-social-media-02-310x400.png 310w,
+          https://blog.hootsuite.com/wp-content/uploads/2023/04/New-social-media-02-620x799.png 620w,
+           https://blog.hootsuite.com/wp-content/uploads/2023/04/New-social-media-02-768x990.png 768w,
+            https://blog.hootsuite.com/wp-content/uploads/2023/04/New-social-media-02.png 934w" sizes="(max-width: 310px) 100vw, 310px">
+        </picture>
+        </a></p>
+
+        <p class="text-center my-3">
+          <h1 class="text-center">ONLINE FRIENDS </h1>
+          like Twitter Spaces, Instagram Reels is not a new social media platform so much as a new feature. But it’s still 
+        worth paying attention to.
+        
+        Reels launched in 2020 as Instagram’s answer to TikTok. While short-form video was already a part of Instagram posts and Stories,
+        Reels added some new capabilities.
+        
+        Instagram Reels are short videos (up to 90 seconds) that can be edited right in the app. Unlike Stories, they don’t disappear
+         after 24 hours. They live in your feed under a dedicated tab.
+        </p>
+        <div class="container-fluid bg-dark text-light">
+<div class="row">
+  <div class="col-sm-4 mt-5">
+    <div class="colm">
+      <div class="in">
+          <img class="icon" src="t7.jpeg" alt="">
+      
+      </div>
+      <div class="soft">
+           Enterprise Software devolpment 
+          </div>
+          <div class="th">
+              <p>
+                  We bulid custmize and imtegrate business , application including EPS CRM ,SCM . 
+                  By inculuding latest technology in process , we enable services and bulid business 
+                  or discard completly their inflexible.
+              </p>
+          </div>
+  
+          </div>
+          
+   </div>
+<div class="col-sm-4 mt-5">
+  <div class="colm">
+    <!-- <div class="in">
+        <img class="icon" src="t9.jpeg" alt="">
+    </div> -->
+    <!-- <div class="soft">
+         Enterprise Software devolpment 
+        </div>
+        <div class="th">
+            <p>
+                We bulid custmize and imtegrate business , application including EPS CRM ,SCM . 
+                By inculuding latest technology in process , we enable services and bulid business 
+                or discard completly their inflexible.
+            </p>
+        </div> -->
+</div>
+
+</div>
+  <div class="col-sm-4 mt-5 ">
+    <div class="colm ">
+      <div class="in ">
+          <img class="icon" src="t6.jpeg" alt="">
+      </div>
+      <div class="soft">
+           Enterprise Software devolpment 
+          </div>
+          <div class="th">
+              <p>
+                  We bulid custmize and imtegrate business , application including EPS CRM ,SCM . 
+                  By inculuding latest technology in process , we enable services and bulid business 
+                  or discard completly their inflexible.
+              </p>
+          </div>
+  </div>
+
+  </div>
+<div class="col-sm-12 text-center my-5">
+  <div class="colm">
+    <div class="in">
+        <img class="icon" src="t8.jpeg" alt="">
+    </div>
+    <div class="soft">
+         Enterprise Software devolpment 
+        </div>
+        <pre>We bulid custmize and intergrate business , application including EPS CRM , SCM ,
+          By inculuding latest technology in process , we enable serviceand bulid business
+          or discard comletly their inflexible.
+        </pre>
+</div>
+
+</div>
+</div>
+<!-- <div class="col-sm-12 text-end my-5">
+  <div class="colm">
+    <div class="in">
+        <img class="icon" src="t2.jpg" alt="">
+    </div>
+    <div class="soft">
+         Enterprise Software devolpment 
+        </div>
+</div>
+
+</div> -->
+</div>
+  </div>
+</div>
+        </div>
+        <p><a href="https://blog.hootsuite.com/wp-content/uploads/2023/04/new-social-media-05.png" target="_blank"><picture decoding="async"
+           loading="lazy" class="alignnone size-large wp-image-401089">
+          <source type="image/webp" srcset="https://blog.hootsuite.com/wp-content/uploads/2023/04/new-social-media-05-620x432.png.webp 620w,
+           https://blog.hootsuite.com/wp-content/uploads/2023/04/new-social-media-05-310x216.png.webp 310w,
+            https://blog.hootsuite.com/wp-content/uploads/2023/04/new-social-media-05-768x535.png.webp 768w,
+             https://blog.hootsuite.com/wp-content/uploads/2023/04/new-social-media-05.png.webp 1069w" sizes="(max-width: 620px) 100vw, 620px">
+          <img decoding="async" loading="lazy" src="https://blog.hootsuite.com/wp-content/uploads/2023/04/new-social-media-05-620x432.png" 
+          alt="Twitch browse relevant live channels" width="620" height="432" srcset=
+          "https://blog.hootsuite.com/wp-content/uploads/2023/04/new-social-media-05-620x432.png 620w, 
+          https://blog.hootsuite.com/wp-content/uploads/2023/04/new-social-media-05-310x216.png 310w, 
+          https://blog.hootsuite.com/wp-content/uploads/2023/04/new-social-media-05-768x535.png 768w,
+           https://blog.hootsuite.com/wp-content/uploads/2023/04/new-social-media-05.png 1069w" sizes="(max-width: 620px) 100vw, 620px">
+          </picture>
+          </a></p>        
+<div class="container">
+<div class="row">
+  <div class="col-sm-12 text-center my-5">
+<h1> For many Years </h1>
+<h1>Technologies performs important rule in our life </h1>
+    <img src="tlogo.jpeg" alt="">
+  </div>
+</div>
+</div>
+
+        <footer class="container-fluid py-5 bg-dark text-light">
+          <div class="row">
+            <div class="col-12 col-md">
+              <img src="er.jpg" style="height: 150px;" alt="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+              <small class="d-block mb-3 text-body-secondary">© 2017–2023</small>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Features</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="link-secondary text-decoration-none" href="#">Home</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Services</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">About us</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Contact us</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Technologies</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Portfolio</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Resources</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Resources</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>About</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+</body>
+</html>
